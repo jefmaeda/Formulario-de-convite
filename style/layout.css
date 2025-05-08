@@ -1,0 +1,39 @@
+#app{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 1.2rem;
+
+  border-radius: 12px;
+  height: 95vh;
+  overflow: hidden;
+}
+
+main{
+  border-radius: 12px;
+  background-color: var(--shape-body);
+
+
+  overflow: auto;
+  padding: 5rem;
+
+  & .main-container{
+    margin-right: auto ;
+    max-width: 35rem;
+  }
+}
+
+aside{
+  border-radius: 12px;
+  
+  padding: 2rem;
+  background-image: url(../assets/image/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+
+  & .aside-container{
+    max-width: 21rem;
+    margin-left: auto;
+  }
+}
