@@ -16,11 +16,11 @@
   --text-log: 400 2.5rem var(--font-family-one);
 
   --text-heading-md: 700 1.75rem var(--font-family-fredoka);
-  --text-heading-sm: 700 1.125rem var(--font-family-fredoka);
+  --text-heading-sm: 600 1.125rem var(--font-family-fredoka);
 
   --text-body-md: 400 1rem var(--font-family-open);
   --text-body-sm: 400 .875rem var(--font-family-open);
-  --text-body-sm: 400 .75rem var(--font-family-open);
+  --text-body-xs: 400 .75rem var(--font-family-open);
 
   /* color */
   --brand-light: #59b2ff;

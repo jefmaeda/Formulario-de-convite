@@ -1,0 +1,15 @@
+input, textarea{
+  appearance: none;
+  width: 100%;
+  border-radius: .3rem;
+  border: solid 1px var(--input-stroke);
+
+  padding: .75rem 1rem;
+}
+
+label{
+  font: var(--text-body-sm);
+
+  display: block;
+  margin-bottom: .2rem;
+}

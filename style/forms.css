@@ -1,0 +1,30 @@
+@import url(fields/index.css);
+
+form{
+  margin-top: 2.5rem;
+}
+
+fieldset{
+  border: none;
+
+  display: grid;
+  gap: 1rem;
+}
+
+legend{
+  display: flex;
+  gap: .6rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  font: var(--text-heading-sm);
+  color: var(--text-heading);
+}
+
+.grid{
+  border: solid;
+  display: gird;
+
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+}
