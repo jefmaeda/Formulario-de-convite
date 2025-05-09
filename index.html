@@ -31,9 +31,60 @@
       
       <div class="main-container">
         <h2>Crie seu convite</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At esse reiciendis mollitia ab. Architecto ipsa maiores tempore vitae, eum, hic ipsam expedita quos quidem est dolore repellendus tempora neque in.</p>
-        <form method="post">
 
+
+        <form method="post" enctype="multipart/form-data">
+          <fieldset .event-info>
+            <legend>
+              <img src="./assets/icons/events.svg" alt="">
+              Sobre o evento
+            </legend>
+
+            <div class="input-wrapper">
+              <label for="eventname">Título</label>
+              <input type="text" name="eventname" id="eventname" placeholder="Nome do evento">
+            </div>
+
+            <div class="grig grid-cols-2">
+
+              <div class="input-wrapper">
+                <label for="startevent">Início</label>
+                <input type="datetime-local" name="startevent" id="startevent">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="endevent">Fim</label>
+                <input type="datetime-local" name="endevent" id="endevent">
+              </div>
+
+              <div class="radio-wrapper">
+
+                <div class="radio-inner">
+                  <input type="radio" name="type-event" id="in-peron" value="in-peron">
+                  <img src="./assets/icons/building.svg" alt="">
+                  <label for="in-peron">Presencial</label>
+                </div>
+
+                <div class="radio-inner">
+                  <input type="radio" name="type-event" id="online" value="online">
+                  <img src="./assets/icons/camera.svg" alt="">
+                  <label for="online">Online</label>
+                </div>
+
+              </div>
+
+              <div class="input-wrapper">
+                <label for="location">Local</label>
+                <input type="text" name="location" id="location" placeholder="Nome do evento">
+              </div>
+
+            </div>
+
+            <div class="textarea-wrapper">
+              <label for="blow-event">Descrição</label>
+              <textarea name="blow-event" id="blow-event" placeholder="Escreva sobre os detalhes do evento"></textarea>
+            </div>
+          </fieldset>
         </form>
       </div>
     
