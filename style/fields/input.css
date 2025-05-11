@@ -5,7 +5,7 @@ input, textarea{
   border: solid 1px var(--input-stroke);
 
   padding: .75rem 1rem;
-  background-color: var(--shape-backgroud);
+  background-color: var(--input-base);
   
   color: var(--text-body);
 }
@@ -18,7 +18,9 @@ label{
 }
 
 input:focus,
-textarea:focus{
+textarea:focus,
+input:hover,
+textarea:hover{
   outline: solid 1px var(--brand-light);
   /* safari brose */
   outline-offset: .1px;

@@ -22,7 +22,7 @@ legend{
   color: var(--text-heading);
 }
 
-.grid-wrapper{
+.event-wrapper{
   /* display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -36,7 +36,5 @@ legend{
   & .radio-wrapper{
     display: flex;
   } */
-
-  display: grid;
   gap: 1rem;
 }
