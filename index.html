@@ -33,7 +33,7 @@
         <h2>Crie seu convite</h2>
 
 
-        <form method="post" enctype="multipart/form-data">
+        <form class="grid" method="post" enctype="multipart/form-data">
           <fieldset class="event-info">
             
             <legend>
@@ -88,11 +88,13 @@
 
             <div class="textarea-wrapper">
               <label for="blow-event">Descrição</label>
-              <textarea name="blow-event" id="blow-event" placeholder="Escreva sobre os detalhes do evento"></textarea>
+              <textarea name="blow-event" id="blow-event" placeholder="Escreva sobre os detalhes do evento"
+              cols="30" rows="7"
+              ></textarea>
             </div>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="customized">
             <legend>
               <img src="./assets/icons/brush.svg" alt="pincel">
               Personalização
@@ -105,6 +107,7 @@
             </div>
 
             <div class="input-wrapper">
+
               <label>Tema do evento</label>
 
               <div class="radio-wrapper grid grid-cols-theme">
@@ -182,6 +185,42 @@
                 </div>
                 
             </div>
+
+            <div class="field-low flex">
+
+              <div id="dark-style" class="flex-1">
+                <label for="">Estilo</label>
+
+                <div id="style-inner" class="flex">
+                  <img src="./assets/icons/shalder.svg" alt="">
+                  <p>Escuro</p>
+                </div>
+              </div>
+
+              <div class="dorparea-wrapper flex-2">
+                
+                <label for="cover-photo">Foto de capa</label>
+
+                <div class="dropzone flex">
+
+                  <div class="buttom flex">
+                    <img src="./assets/icons/uploud.svg" alt="">
+                    <p>Selecionar</p>
+                  </div>
+
+                  <input type="file" name="" id="">
+                  
+                  <p>Nenhum arquivo selecionado</p>
+                  
+                </div>
+              
+              </div>
+
+            </div>
+            
+          </div>
+
+
 
           </fieldset>
         </form>

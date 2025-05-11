@@ -19,6 +19,8 @@ main{
   & .main-container{
     margin: auto ;
     max-width: 35rem;
+
+    gap: 3rem;
   }
 }
 
