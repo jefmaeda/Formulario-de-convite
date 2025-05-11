@@ -24,3 +24,11 @@ textarea:focus{
   outline-offset: .1px;
 }
 
+input[type="datetime-local"]{
+  position: relative;
+  &::-webkit-calendar-picker-indicator{
+    position: absolute;
+    background: transparent;
+    width: 100%;
+  }
+}
