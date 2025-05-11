@@ -1,0 +1,26 @@
+input, textarea{
+  appearance: none;
+  width: 100%;
+  border-radius: .3rem;
+  border: solid 1px var(--input-stroke);
+
+  padding: .75rem 1rem;
+  background-color: var(--shape-backgroud);
+  
+  color: var(--text-body);
+}
+
+label{
+  font: var(--text-body-xs);
+
+  display: block;
+  margin-bottom: .2rem;
+}
+
+input:focus,
+textarea:focus{
+  outline: solid 1px var(--brand-light);
+  /* safari brose */
+  outline-offset: .1px;
+}
+

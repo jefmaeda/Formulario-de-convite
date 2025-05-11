@@ -17,7 +17,7 @@ main{
   padding: 5rem;
 
   & .main-container{
-    margin-right: auto ;
+    margin: auto ;
     max-width: 35rem;
   }
 }
@@ -34,7 +34,7 @@ aside{
 
   & .aside-container{
     max-width: 21rem;
-    margin-left: auto;
+    /* margin-left: auto; */
   }
 
   & img{

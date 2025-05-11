@@ -46,7 +46,7 @@
               <input type="text" name="eventname" id="eventname" placeholder="Nome do evento">
             </div>
 
-            <div class="grid grid-cols-2">
+            <div class="flex">
 
               <div class="input-wrapper">
                 <label for="startevent">Início</label>
@@ -58,7 +58,7 @@
                 <input type="datetime-local" name="endevent" id="endevent">
               </div>
 
-              <div class="radio-wrapper">
+              <!-- <div class="radio-wrapper">
 
                 <div class="radio-inner">
                   <input type="radio" name="type-event" id="in-peron" value="in-peron">
@@ -72,8 +72,13 @@
                   <label for="online">Online</label>
                 </div>
 
+              </div> -->
+                <div class="input-wrapper">
+                <label for="endevent">Fim</label>
+                <input type="datetime-local" name="endevent" id="endevent">
               </div>
-              
+
+
               <div class="input-wrapper">
                 <label for="location">Local</label>
                 <input type="text" name="location" id="location" placeholder="Nome do evento">

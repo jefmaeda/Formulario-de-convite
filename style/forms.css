@@ -22,9 +22,22 @@ legend{
   color: var(--text-heading);
 }
 
-.grid{
+.flex{
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 35rem;
   border: solid;
-  display: gird;
 
-  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  & > div{
+    flex: 1;
+  }
+
+  & .radio-wrapper{
+    display: flex;
+  } */
+
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(17rem,1fr));
 }
