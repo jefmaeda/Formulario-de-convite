@@ -46,7 +46,7 @@
               <input type="text" name="eventname" id="eventname" placeholder="Nome do evento">
             </div>
 
-            <div class="flex">
+            <div class="grid-wrapper grid-cols-event">
 
               <div class="input-wrapper">
                 <label for="startevent">Início</label>
@@ -90,6 +90,38 @@
               <label for="blow-event">Descrição</label>
               <textarea name="blow-event" id="blow-event" placeholder="Escreva sobre os detalhes do evento"></textarea>
             </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              <img src="./assets/icons/brush.svg" alt="pincel">
+              Personalização
+            </legend>
+
+            <div class="input-wrapper">
+              <label for="eventname">Cor principal</label>
+              <input type="text" name="eventname" id="eventname" placeholder="Nome do evento">
+            </div>
+
+            <div class="grid-wrapper">
+              <label>Tema do evento</label>
+
+              <div class="radio-wrapper">
+                <div class="radio-inner">
+                  <input type="radio" name="event-theme" id="birthday" value="birthday">
+                  <img src="./assets/image/Image.jpg" alt="">
+                  <label for="birthday">Aniversário</label>
+                </div>
+
+                <div class="radio-wrapper">
+                <div class="radio-inner">
+                  <input type="radio" name="event-theme" id="kids" value="kids">
+                  <img src="./assets/image/Image-1.png" alt="">
+                  <label for="kids">Infantil</label>
+                </div>
+              </div>
+            </div>
+
           </fieldset>
         </form>
       </div>

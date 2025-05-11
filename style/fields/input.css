@@ -14,7 +14,7 @@ label{
   font: var(--text-body-xs);
 
   display: block;
-  margin-bottom: .2rem;
+  margin-bottom: .75rem;
 }
 
 input:focus,
