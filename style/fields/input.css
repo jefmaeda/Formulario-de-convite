@@ -10,6 +10,27 @@ input, textarea{
   color: var(--text-body);
 }
 
+input{
+  &:invalid{
+    border: solid 1px var(--danger);
+  }
+
+  &[required] + .error{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+
+    font: var(--text-body-xs);
+    color: var(--danger);
+
+    margin-top: .25rem;
+  }
+
+  &:not(:focus):valid + .error{
+    display: none;
+  }
+}
+
 label{
   font: var(--text-body-xs);
 

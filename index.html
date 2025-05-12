@@ -232,20 +232,33 @@
 
             <div class="input-wrapper">
               <label for="contact-name">Nome</label>
-              <input type="text" placeholder="Nome completo" id="contact-name" name="contact-name">
+              <input type="text" placeholder="Nome completo" id="contact-name" name="contact-name" required>
+                <div class="error">
+                  <img src="./assets/icons/error.svg" alt="">
+                  <span>Campo obrigatório</span>
+                </div>
             </div>
 
             <div class="input-wrapper flex gap-1rem">
 
               <div class="input-inner ">
                 <label for="email">E-mail</label>
-                <input type="text" placeholder="exemplo@email.com" id="email" name="email">
+                <input type="email" placeholder="exemplo@email.com" id="email" name="email" required>
+                <div class="error">
+                  <img src="./assets/icons/error.svg" alt="">
+                  <span>Campo obrigatório</span>
+                </div>
               </div>
 
               <div class="input-inner">
                 <label for="phone">Telefone</label>
-                <input type="tel" placeholder="(99) 99999-9999" id="phone" name="phone">
+                <input type="tel" placeholder="(99) 99999-9999" id="phone" name="phone" required>
+                  <div class="error">
+                  <img src="./assets/icons/error.svg" alt="">
+                  <span>Campo obrigatório</span>
+                </div>
               </div>
+
             </div>
           </fieldset>
         </form>
