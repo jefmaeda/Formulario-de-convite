@@ -40,3 +40,9 @@ legend{
   } */
   gap: 1rem;
 }
+
+.dividing-line{
+  width: 100%;
+  height: 1px;
+  background-color: var(--input-stroke);
+}
