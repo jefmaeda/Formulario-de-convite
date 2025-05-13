@@ -15,11 +15,12 @@
     opacity: 0;
   }
 
-  .buttom{
+  .button-upload{
     background-color: var(--shape-button);
     padding: .6rem .7rem;
     border-radius: .5rem;
     gap: .5rem;
+    cursor: pointer;
 
     align-items: center;
     & img{
