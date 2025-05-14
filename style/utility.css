@@ -25,3 +25,7 @@
 .flex-2{
   flex: 2;
 }
+
+.flex-w{
+  flex-wrap: wrap;
+}
