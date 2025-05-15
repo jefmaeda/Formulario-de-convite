@@ -29,6 +29,9 @@
   }
   &:focus-within{
     outline: solid 1px var(--brand-light);
+  }
+  &:has(:checked){
+    outline: 2px solid var(--brand-light);
 
   }
 

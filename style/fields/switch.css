@@ -3,6 +3,7 @@
   background-color: var(--input-base);
   border: solid 1px var(--input-stroke);
   border-radius: .5rem;
+  gap: .1rem;
 
 
   & .radio-inner{
@@ -14,6 +15,10 @@
   &:focus-within{
     outline: none;
     background-color: var(--shape-button);
+  }
+  &:has(:checked){
+    background-color: var(--shape-button);
+    outline: none;
   }
   }
   .formate{
