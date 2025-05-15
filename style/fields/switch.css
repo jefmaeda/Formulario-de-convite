@@ -1,0 +1,23 @@
+.switch-box{
+  padding: .30rem .25rem;
+  background-color: var(--input-base);
+  border: solid 1px var(--input-stroke);
+  border-radius: .5rem;
+
+
+  & .radio-inner{
+    border: none;
+    background-color: var(--input-base);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  &:focus-within{
+    outline: none;
+    background-color: var(--shape-button);
+  }
+  }
+  .formate{
+    width: 1rem;
+    height: 1rem;
+  }
+}
