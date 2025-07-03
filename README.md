@@ -1,4 +1,4 @@
-# Formulário de Convite
+# Festivite - Formulário de Convite
 
 Este projeto é um formulário de convite desenvolvido durante os desafios da **Formação Full Stack** da [Rocketseat](https://www.rocketseat.com.br/). Ele foi criado com o objetivo de aprimorar habilidades em desenvolvimento web, incluindo boas práticas de código, organização de projeto e experiência do usuário.
 
